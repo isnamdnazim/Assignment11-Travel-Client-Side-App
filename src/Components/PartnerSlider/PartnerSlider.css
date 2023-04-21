@@ -1,0 +1,18 @@
+@media screen and (max-width: 480px) {
+  .text-res {
+    text-align: center;
+  }
+  .res {
+    text-align: justify;
+  }
+  .borderStart {
+    margin: 0 auto;
+  }
+  .effect {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .imgRes {
+    width: 50px;
+  }
+}

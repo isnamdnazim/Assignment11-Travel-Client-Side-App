@@ -1,0 +1,31 @@
+.heroSection {
+  width: 100%;
+  height: 500px;
+  background-image: url("../../Utilities/Sliders/slider.jpg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.drk:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.5;
+}
+.ccd {
+  z-index: 100;
+}
+.bgDark {
+  font-style: oblique;
+  height: 100px;
+}
+@media only screen and (min-width: 990px) {
+  .ccd {
+    top: 300px;
+  }
+}
